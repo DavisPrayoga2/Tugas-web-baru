@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="index.html">Tentang</a>
+            <a href="index.html">Cerita</a>
+            <a href="index.html">Pengalaman</a>
+            <a href="index.html">Keahlian</a>
+            <a href="page.html">Artikel</a>
+        </div>
+
+        <div class="nav-right">
+            <button class="toggle" onclick="toggleMode()">🌙 / ☀</button>
+        </div>
+    </div>
+
+    <div class="isi">
+        <h2>XAUUSD trading dan tutorial</h2>
+        <p>Pengenalan Basic Dari Trading<br>
+        <p class="font-artikel">Pertama kali trading? coba pahami dahulu apa itu AMD killzone <br>
+        AMD killzone merupakan sebuah teori jam waktu trading,ada sesi asia,sesi london,dan sesi amerika <br>
+        dijam 06.00-13.00 WIB merupakan sesi asia,dijam 14.00-21.00 WIB merupakan sesi london,dan dijam 21.30-05.00 WIB merupakan sesi amerika/ny <br>
+        lalu,kenapa ini berpengaruh?</p>
+        <p class="font-artikel">Karena dijam sesi asia biasa terjadi price discoevery dan spot buyer bank central(XAU) <br>
+        Sementara pada saat sesi london merupakan sesi konsolidasi dan banyak trap untuk liquidity harvesting <br>
+        Dan saat sesi amerika/ny banyak institusi dengan volume besar masuk dan dapat terjadi pembalikan arah atau continuation</p>
+        <figure class="gambar-artikel">
+            <img src="img1.png" alt="Contoh killzone">
+            <figcaption>Contoh Killzone</figcaption>
+        </figure>
+        <p class="font-artikel">Bagaimanakah cara menggunakannya? pertama marking high dan low pada setiap sesi seperti gambar diatas <br>
+        atau gunakan indikator ict killzone agar secara otomatis memberi tanda <br>
+        Lalu lihat pada price action,pada sesi london konsolidasi,maka sesi amerika akan sweep low dari asia prev <br>
+        kenapa sweep low? karena low/high sebuah range candle pasti banyak liquidity yang menumpuk <br>
+        apa itu liquidity? liquidity merupakan sekumpulan pending order buy/sell</p>
+        <figure class="gambar-artikel">
+            <img src="img2.png" alt="contoh price action xau">
+            <figcaption>Contoh Price action dari xau</figcaption>
+        </figure>
+        <h2>Contoh entry menggunakan fvg dan AMD</h2>
+        <figure class="gambar-artikel">
+            <img src="img3.png" alt="Contoh entry">
+            <figcaption>Contoh Entry menggunakan fvg dan amd</figcaption>
+        </figure>
+        <p class="font-artikel"></p>
+    </p>
+    </div>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("light");
+        }
+    </script>
+</body>
+</html>
